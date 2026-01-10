@@ -11,4 +11,4 @@ def about():
 
 @app.get("/contact")
  def contect():
-   
+    return {"Email": "amitkumarsharma12345@gmail.com"}
