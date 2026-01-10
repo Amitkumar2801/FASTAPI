@@ -12,3 +12,6 @@ def about():
 @app.get("/contact")
 def contect():
     return {"Email": "amitkumarsharma12345@gmail.com"}
+@app.get("/hobby")
+def hobby():
+    return {"My Hobbies are Playing Cricket , Reading Books and Watching Movies"}
