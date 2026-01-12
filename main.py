@@ -24,7 +24,3 @@ def skills():
 @app.get("/education")
 def education():
     return {"I am pursuning diploma in artificial intellingence and machine leraning from Government Polytechnic Barh,Patna"}
-
-@app.get("/address")
-def address():
-    return {"My Address is Near Government Polytechnic Barh,Patna"}
