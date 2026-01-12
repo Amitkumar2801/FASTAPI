@@ -20,7 +20,3 @@ def hobby():
 @app.get("/skills")
 def skills():
     return {"My Skills are Python, C++, HTML, CSS, JavaScript"}
-
-@app.get("/education")
-def education():
-    return {"I am pursuning diploma in artificial intellingence and machine leraning from Government Polytechnic Barh,Patna"}
