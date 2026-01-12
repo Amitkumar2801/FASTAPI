@@ -16,7 +16,3 @@ def contect():
 @app.get("/hobby")
 def hobby():
     return {"My Hobbies are Playing Cricket , Reading Books and Watching Movies"}
-
-@app.get("/skills")
-def skills():
-    return {"My Skills are Python, C++, HTML, CSS, JavaScript"}
