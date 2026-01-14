@@ -7,4 +7,4 @@ def hello():
 
 @app.get("/about")
 def about():
-    return {"Hello My Name Is AMIT KUMAR SHARMA , iam pursuing diploma in artificial intelligence and machine learning from Government Polytechnic Barh,Patna "}
+    return {'Message': 'A Fully functional patient management system API built with FastAPI.'}
