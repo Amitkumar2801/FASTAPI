@@ -7,4 +7,4 @@ def hello():
 
 @app.get("/about")
 def about():
-    return {'Message': 'A Fully functional patient management system API built with FastAPI.'}
+    return {'Message': 'A Fully Functional API To Manage Your Patient Records'}
