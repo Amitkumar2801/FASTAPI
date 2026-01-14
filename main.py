@@ -7,8 +7,4 @@ def hello():
 
 @app.get("/about")
 def about():
-    return {"Hello My Name Is AMIT KUMAR SHARMA , iam pursuning diploma in artificial intellingence and machine leraning from Government Polytechnic Barh,Patna "}
-
-@app.get("/contact")
-def contact():
-    return {"Email": "amitkumarsharma12345@gmail.com"}
+    return {"Hello My Name Is AMIT KUMAR SHARMA , iam pursuing diploma in artificial intelligence and machine learning from Government Polytechnic Barh,Patna "}
