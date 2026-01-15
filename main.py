@@ -8,15 +8,15 @@ def load_data():
        data = json.load(f)
        return data
 
-@app.get("/")
+@app.get('/')
 def hello():
     return {'message': 'patient Management system API'}
 
-@app.get("/about")
+@app.get('/about')
 def about():
     return {'Message': 'A Fully Functional API To Manage Your Patient Records'}
 
-@app.get("/view")
+@app.get('/view')
 def view():
     data = load_data()
     return data
